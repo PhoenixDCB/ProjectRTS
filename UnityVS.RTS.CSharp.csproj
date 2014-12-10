@@ -55,7 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Actions\ObjectSelect.cs" />
+    <Compile Include="Assets\Scripts\Buildings_Units\Init.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraControl.cs" />
+    <Compile Include="Assets\Scripts\Camera\Map.cs" />
+    <Compile Include="Assets\Scripts\Information\InformationUnits.cs" />
+    <Compile Include="Assets\Scripts\Math\Polygon.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
